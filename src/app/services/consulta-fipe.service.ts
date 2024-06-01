@@ -7,7 +7,7 @@ import { Observable } from 'rxjs';
 })
 export class ConsultaFipeService {
 
-  private url = "http://brasilapi.com.br";
+  private url = "https://brasilapi.com.br";
 
   constructor(private httpClient: HttpClient) { }
 
